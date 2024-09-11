@@ -13,7 +13,7 @@
 			</activation>
 			<properties>
 				<spring.profiles.active>local</spring.profiles.active>
-				<log4j2.path>D:\\Major-Project\\chat\\Git-sync\\ChatApp\\logs
+				<log4j2.path>
 				</log4j2.path>
 			</properties>
 		</profile>
@@ -39,7 +39,7 @@
 		<version>3.3.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-
+	
 	<groupId>com.garud</groupId>
 	<artifactId>chatapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -67,26 +67,14 @@
 		<spring.application.name>chatapp</spring.application.name>
 		<junit.jupiter.version>5.8.1</junit.jupiter.version>
 		<junit.platform.version>1.8.1</junit.platform.version>
-		<spring-cloud.version>2021.0.3</spring-cloud.version>
-	</properties>
+		<spring-cloud.version>2021.0.3</spring-cloud.version>	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jdbc</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-
-
+	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
